@@ -1,0 +1,54 @@
+- Tabellen formatieren (überall gleicher Abstand [main jpanel]
+- LS Icon ersetzen [DONE]
+- Return Book Button nicht mehr in der Mitte [DONE]
+-table.setAutoCreateRowSorter(true); [DONE]
+- Pages überprüfen ob int [DONE]
+
+Implementierung
+- Borrow Books Todo
+    - Availbility muss sich ändern + Ausgrauen [DONE]
+    - Farbe bei DueDate wenn über Deadline [DONE]
+    - For Schleifen bei Return books recoden (Optional)
+    - Return Books Implementierung [DONE]
+    - Username & ISBN muss sich bei ReturnBooks updaten, damit es zu keinen komplikationen kommt (da nicht editbar - keine hohe prio)
+    - Check für Error wenn nicht available [DONE]
+- Checks für User: PhoneNumber & Email. Username & ISBN muss unique sein!
+- Text File Update bei Edit Book/User (maybe mit ID?) [ISBN fehlt]
+- Tabellen Dropdown Implementierung [Posponed]
+- Cover Implementierung [DONE]
+    - Cover sollte mit No_Cover_BILD ersetzt werden wenn keins existiert
+- Table & Statistics fetch in allen Klassen [DONE]
+- Error Meldungen auf Prototyp anpassen
+- Fetch Tables & Fetch Users/Books (done) sollte in eigene Klasse oder so ausgelagert werden -> Viel redundanter code
+- Borrowed Books Counter bei Userview [DONE]
+- Search Bar Implementierung [DONE]
+- Delete Book/User Implementierung [DONE]
+- Borrowed Books Anzahl bei Usertabelle [DONE]
+
+WICHTIG - Fetchtables deaktivieren und nur dann table fetchen, wenn man auf dem Panel ist
+
+Weiteres:
+- Max Länge von Username
+- Bei updateUser/BooksList wird ein Check benötigt, wenn noch keine Werte im txt vorliegen bzw. das txt nicht existiert -> Neu Erstellung
+- Delete User & Book sollte mittels fetchObjects realisiert werden
+- Public Arraylists in FetchObjects sollte so gettern umgewandelt werden [DONE]
+- Fetch Table nicht bei unerfolgreichen Delete
+- Man sollte cells wieder unselecten können [DONE]
+- Cover Ordner muss erstellt werden wenn er noch nicht existiert
+- PopUp für FileExplorer sollte mit Look & Feel implementiert werden
+- Beschriftung für Covergröße
+- Größe der Cover Tabelle mittels Variablen definieren, sodass diese angepasst werden
+- Searchtables sollten gleich wie Fetchtables funktionieren und der Zusatzcheck mittels neuer Methode eingebaut werden
+- Search nicht groß & kleinbuchstaben beachten
+- Authormeldung immer als erstes auch wenn keine anderen Werte drin sind [BUG]
+- Wenn leeres Tabellenfeld -> Mit -/- ersetzen
+- ISBN & username auch editen können
+- Borrowed Books Statistiken Panel verschiebt sich zu viel wenn resized
+- Bei BorrowBook muss noch Textfeld stehen, dass man User selecten kann [DONE]
+- Max Filesize für Coverupload
+
+- Nach Testing-Ende muss Mainklasse erstellt werden, die nur StandardView öffnet. [Done]
+- Alle anderen Klassen können nicht ausgeführt werden + Sichtbarkeit einschränken [Done]
+
+Optional wenn Zeit
+- User & Books mit ID versehen, damit das leichter beim Editen übergeben werden kann -> Weniger redundanter code

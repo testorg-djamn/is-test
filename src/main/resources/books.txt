@@ -1,0 +1,1 @@
+[{"Book":{"Pages":"100","Availability":"Available","Cover":"src\\main\\resources\\cover\\Book_Cover_Example.png","ISBN":"1234568789","Title":"Lollas Welt","Author":"Lollo","Location":"1AR"}},{"Book":{"Pages":"123","Availability":"Borrowed","Cover":"X","ISBN":"1234567876","Title":"1234","Author":"AAA","Location":""}}]

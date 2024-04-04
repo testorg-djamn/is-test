@@ -7,3 +7,5 @@ public class Main {
         java.awt.EventQueue.invokeLater(() -> new StandardView().setVisible(true));
     }
 }
+
+//
